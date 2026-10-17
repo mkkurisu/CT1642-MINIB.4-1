@@ -1,0 +1,16 @@
+This file contains the change history of the CT1642 Led Driver / Key Scan Library.
+
+VERSION 2.0.0
+==============
+DATE: 2026-10-17
+- Refactored and optimized by mkkurisu for S-CT1642-MINIB.4-1 DVB-T/Satellite front panels.
+- Added Hardware Timer2 Interrupt multiplexing for 100% delay() safe background refresh.
+- Fixed dual-edge DATA latch and output enable waveform according to CT1642 datasheet (zero ghosting).
+- Added full ASCII character set support (including X, M, and degree symbol '*').
+- Added direct control functions for center colon (:), Red status LED, and Standby mode.
+- Added legacy function support (showChars, showSingle) and ISR-safe key scanning.
+
+VERSION 0.0.1
+==============
+DATE: 2015-10-31
+- Initial Release by George Efstathiou (arkroan).

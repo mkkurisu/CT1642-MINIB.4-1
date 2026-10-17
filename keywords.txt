@@ -1,0 +1,37 @@
+#######################################
+# Syntax Coloring Map For CT1642
+# Maintained by mkkurisu
+#######################################
+
+#######################################
+# Datatypes/classes (KEYWORD1)
+#######################################
+CT1642	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+update	KEYWORD2
+clear	KEYWORD2
+showNumber	KEYWORD2
+showTime	KEYWORD2
+showText	KEYWORD2
+setChar	KEYWORD2
+setRaw	KEYWORD2
+setColon	KEYWORD2
+setRedLed	KEYWORD2
+setGreenLed	KEYWORD2
+setStandbyMode	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SEG_A	LITERAL1
+SEG_B	LITERAL1
+SEG_C	LITERAL1
+SEG_D	LITERAL1
+SEG_E	LITERAL1
+SEG_F	LITERAL1
+SEG_G	LITERAL1
+SEG_AUX	LITERAL1
